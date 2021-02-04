@@ -33,6 +33,25 @@
       "windows": {
         "program": "${workspaceFolder}/node_modules/jest/bin/jest",
       }
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Attach",
+      "restart": true,
+      "port": 9229
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "protocol": "inspector",
+      "name": "ES6 Debugger",
+      "program": "${workspaceFolder}/src/index.js",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node",
+      "runtimeArgs": [
+        "--presets",
+        "env"
+      ]
     }
   ]
 }
