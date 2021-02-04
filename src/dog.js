@@ -1,10 +1,10 @@
 class Dog {
   constructor(name) {
-    this.name = name
+    this.name = name;
   }
   bark() {
-    return `Wah, I am ${this.name}`
+    return `Wah, I am ${this.name}`;
   }
 }
 
-export default Dog
+export default Dog;

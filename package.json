@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "start": "babel-node src",
-    "test": "eslint src && jest --coverage --config=jest.config.js"
+    "test": "eslint src && jest --coverage --config=jest.config.js",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
   },
   "dependencies": {},
   "devDependencies": {
