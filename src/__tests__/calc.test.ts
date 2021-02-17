@@ -8,6 +8,6 @@ describe('test add function', () => {
 
 describe('test mul function', () => {
   it('should return 15 for mul(3,5)', () => {
-    expect(mul(10, 5)).toBe(15);
+    expect(mul(3, 5)).toBe(15);
   });
 });
